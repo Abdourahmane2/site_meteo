@@ -1,0 +1,17 @@
+span{
+    font-size:x-large ;
+}
+#pays3{
+    position: absolute;
+    left: 650px;
+}
+#pays2{
+    position: absolute;
+    right: 250px;
+    top: 80px;
+}
+button{
+    position: absolute;
+    left:210px;
+    top: 1px;
+}

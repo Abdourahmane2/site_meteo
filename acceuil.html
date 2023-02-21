@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="acceuil.css">
+    <script src="acceuil.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    
+  </style>
+</head>
+<body>
+    
+     <!--navbar-->
+     <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Welcome</a>
+        </div>
+        
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+          <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!--meteo-->
+    <div class="meteo">
+
+       <div>
+        &nbsp;  &nbsp;  &nbsp;  &nbsp;    <span id="pays1"></span>   
+          <span id="pays3">pays2</span>
+          <div  id="pays2" class="form-group">
+            <input id="entre" type="text" class="form-control" placeholder="Enter une ville" >
+            <button type="submit" class="btn btn-primary"  onclick="gettemperature1()">Submit</button>
+          </div>
+          
+       </div>
+
+    </div>
+
+    <hr>
+
+
+     
+</body>
+</html>
