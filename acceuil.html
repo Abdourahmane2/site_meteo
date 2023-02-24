@@ -9,8 +9,13 @@
     <link rel="stylesheet" href="acceuil.css">
     <script src="acceuil.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">  
   <style>
-    
+      body{
+        /* background-color: rgb(212, 225, 239)*/
+        
+      } 
   </style>
 </head>
 <body>
@@ -19,8 +24,14 @@
      <nav class="navbar navbar-inverse">
       <div class="container-fluid">
         <div class="navbar-header">
-          <a class="navbar-brand" href="#">Welcome</a>
-        </div>
+         <a class="navbar-brand" href="#">   welcome  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;</a> 
+       </div>
+       <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">Actualite</a></li>
+        <li><a href="#">Simulation</a></li>
+        <li><a href="#">Agir</a></li>
+      </ul>
         
         <ul class="nav navbar-nav navbar-right">
           <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
@@ -33,10 +44,10 @@
 
        <div>
         &nbsp;  &nbsp;  &nbsp;  &nbsp;    <span id="pays1"></span>   
-          <span id="pays3">pays2</span>
+          <span id="pays3"></span>
           <div  id="pays2" class="form-group">
             <input id="entre" type="text" class="form-control" placeholder="Enter une ville" >
-            <button type="submit" class="btn btn-primary"  onclick="gettemperature1()">Submit</button>
+            <button type="submit" class="btn btn-primary"  onclick="gettemperature1()">rechercher</button>
           </div>
           
        </div>
@@ -44,8 +55,35 @@
     </div>
 
     <hr>
+          <!--menu-->
+          <div id="corps">
+  
 
+             
 
+    <div class="flex-container">
+      <div class="item" > <a href="">
+        <div class="carre">  <i class='fas fa-newspaper  blue-color'></i> </div>
+        <div class="fleche"></div>
+        <span class="tex" >Actualite</span>
+      </a>
+       
+
+      </div>
+        <div class="item">  <a href=""><div class="carre"> <i id="ii" class='fa fa-cloud blue-color'></i></div>
+          <div class="fleche"></div>
+          <span class="tex" >Simulation</span></a>
+        
+      </div>
+      <div class="item">  <a href=""><div class="carre">   <i class='fa-solid fa-hand blue-color'></i> </div>
+        <div class="fleche"></div>
+        <span class="tex" >Agir</span></a>
+        
+      </div>
+      
+  </div>
+
+</div> 
      
 </body>
 </html>

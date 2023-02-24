@@ -8,13 +8,21 @@ async function gettemperature(){
   const data = await resul.json()
   let  temp =  data.main.temp - 273.15
   console.log(data);
-  document.getElementById('pays1').innerHTML =  "<i class='fa fa-cloud'></i>" + " " +  temp.toFixed(1) + "°C"  +  " "  +  data.name  
+  document.getElementById('pays1').innerHTML =  " <i class='fas fa-cloud-showers-heavy blue-color'></i>" + " " + " " +  " " +  temp.toFixed(1) + "°C"  +  " "  +  data.name  
 } 
 gettemperature()
   
 
+  async function gettemperature2(){
+  const apiurl = "https://api.openweathermap.org/data/2.5/weather?q=Lyon&appid=cd7a84365adaf9221c53adec2f89d106"
+  const resul = await fetch(`${apiurl}`)
+  const data = await resul.json()
+  let  temp =  data.main.temp - 273.15
+  console.log(data);
+  document.getElementById('pays3').innerHTML =  "<i class='fa fa-cloud'></i>"  + " " + " "+ " " + " " +  + " " +  temp.toFixed(1) + "°C"  +  " "  +  data.name 
   
-
+}
+ gettemperature2()
 
 
   async function gettemperature1(ville){
@@ -28,7 +36,7 @@ gettemperature()
   
 }
 
-   gettemperature('Paris')
+ 
 
 
 

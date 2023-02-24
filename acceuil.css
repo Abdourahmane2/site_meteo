@@ -15,3 +15,80 @@ button{
     left:210px;
     top: 1px;
 }
+hr{
+    border-top: 2px dashed  ;
+    
+}
+.flex-container {
+    height: 250px;
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: 300px;
+    top: 220px;
+    
+}
+.item {
+    width: 20%;
+    background: white ; 
+    border: 1px solid rgb(9, 7, 7) ; 
+    border-radius: 15px;
+    text-align: center;
+    
+}
+.fleche{
+    
+    width: 0;
+    height: 0;
+    
+    border-right: 15px solid transparent;
+    border-left: 12px solid transparent;
+    border-top: 12px solid black ;
+    position: relative;
+    left: 42%;
+    top: 15%;
+}
+.item:hover{
+   transform: rotate(15deg); 
+   transition-duration: 10ms;
+} 
+   img{
+    position: relative;
+    left: 30%;
+    top: 10px ; 
+    width: 600px;
+   }
+
+   #para{
+    text-align: center;
+    
+   }
+ i{
+    font-size: x-large ;
+     position: relative;
+     top: 30%;
+ }
+ #ii{
+    font-size: x-large
+ }
+
+    
+    
+.tex{
+    position: relative;
+    top: 120px ;
+    text-align:start;
+}
+.carre{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-color: black;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    left: 35%;
+    top: 10%;
+}
+
