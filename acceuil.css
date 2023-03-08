@@ -29,6 +29,13 @@ hr{
     top: 220px;
     
 }
+
+#texte{
+    position: fixed;
+    left: 5%;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 .item {
     width: 20%;
     background: white ; 
@@ -79,6 +86,7 @@ hr{
     position: relative;
     top: 120px ;
     text-align:start;
+    font-weight: bolder;
 }
 .carre{
     width: 50px;
@@ -92,3 +100,9 @@ hr{
     top: 10%;
 }
 
+  body{
+   background-image: url('image8.jpg');
+    background-repeat: no-repeat;  
+    background-size: 100%;
+    
+}
